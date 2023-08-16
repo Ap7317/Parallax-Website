@@ -1,0 +1,82 @@
+body{
+    height: 100%;
+    margin: 0;
+    font-size: 1rem;
+    font-family: "Lato",sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+}
+.pimg1{
+    background-image: url(image1.png);
+    min-height: 100vh;
+}
+.pimg1,.pimg2,.pimg3{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.ptext{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: azure;
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+.textbg1{
+    background-color: rgb(22, 5, 5);
+    padding: 20px;
+    border-radius: 10px;
+    text-shadow: 1px 1px 5px pink;
+}
+.paragraphone{
+    padding: 30px;
+    text-align: justify;
+    background-color: azure;
+    color: grey;
+}
+.paragraphone h2{
+    font-size: 30px;
+    text-align: center;
+}
+.pimg2{
+    background-image: url(image2.png);
+    min-height: 100vh;
+}
+.textbg2{
+    border-radius: 10px;
+    background-color: rgb(197, 167, 173);
+    color: rgb(63, 63, 155);
+    padding: 20px;
+    text-shadow: 1px 1px 5px black;
+}
+.paragraphtwo{
+    padding: 40px;
+    background-color: rgb(71, 96, 142);
+    color: pink;
+    text-align: justify;
+}
+.paragraphtwo h2{
+    font-size: 30px;
+    text-align: center;
+}
+.pimg3{
+    background-image: url(image3.png);
+    min-height: 100vh;
+}
+.textbg3{
+    font-size: 50px;
+    color: azure;
+}
+.paragraphthree{
+    padding: 40px;
+    text-align: justify;
+    color: rgb(24, 24, 54);
+}
+.paragraphthree h2{
+    font-size: 30px;
+    text-align: center;
+}
